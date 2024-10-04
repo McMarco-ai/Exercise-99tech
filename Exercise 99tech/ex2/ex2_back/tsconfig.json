@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es6", // or higher
-    "module": "commonjs", // You can change to "esnext" if you're using ES modules
-    "esModuleInterop": true, // Enables interoperability between CommonJS and ES modules
-    "skipLibCheck": true, // Skip type checking of declaration files
-    "strict": true, // Enable all strict type checking options
-    "outDir": "./dist", // Directory for compiled files
-    "rootDir": "./", // Root directory of your TypeScript files
-    "forceConsistentCasingInFileNames": true // Ensures consistent casing
+    "target": "es6", 
+    "module": "commonjs", 
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "strict": true, 
+    "outDir": "./dist", 
+    "rootDir": "./", 
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "./**/*.ts" // Adjust according to your project structure
+    "./**/*.ts" 
   ],
   "exclude": [
-    "node_modules", // Exclude node_modules
-    "dist" // Exclude output directory if you have one
+    "node_modules", 
+    "dist" 
   ]
 }
